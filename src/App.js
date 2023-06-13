@@ -2,9 +2,12 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      Homepage
-    </div>
+    <> {/* replacing div element with react fragment <> </> */}
+      <Header/>
+      <Nav/>
+      <Main/>
+      <Footer/>
+    </>
   );
 }
 
