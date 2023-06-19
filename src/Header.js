@@ -1,5 +1,11 @@
-import Logo from 'icons_assets/Logo.svg';
+import React from 'react';
+import Logo from './icons_assets/Logo.svg';
 
-<header>
-    <img src={Logo} alt='little lemons logo'/>
-</header>
+function Header(){
+    return (
+        <header>
+            <img src={Logo} alt='little lemons logo'/>
+        </header>
+    )
+}
+export default Header;
