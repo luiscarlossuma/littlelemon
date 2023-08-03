@@ -2,14 +2,13 @@ import React from "react";
 
 function Nav(){
     return(
-        <nav>
-            <ul>
-                <li><a href=''>Home</a></li>
-                <li><a href=''>About</a></li>
-                <li><a href=''>Reservations</a></li>
-                <li><a href=''>Order Online</a></li>
-                <li><a href=''>Login</a></li>
-            </ul>
+        <nav className="links">
+            <a href='#'>Home</a>
+            <a href='/about'>About</a>
+            <a href=''>Menu</a>
+            <a href=''>Reservations</a>
+            <a href=''>Order Online</a>
+            <a href=''>Login</a>
         </nav>
     )
 }

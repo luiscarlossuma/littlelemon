@@ -7,8 +7,10 @@ import Footer from './Footer.js';
 function App() {
   return (
     <> {/* replacing div element with react fragment <> </> */}
+      <header className='header'>
       <Header/>
       <Nav/>
+      </header>
       <Main/>
       <Footer/>
     </>
